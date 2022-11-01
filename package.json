@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cli3338198/node-files/issues"
   },
-  "homepage": "https://github.com/cli3338198/node-files#readme"
+  "homepage": "https://github.com/cli3338198/node-files#readme",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
 }

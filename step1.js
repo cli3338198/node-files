@@ -11,6 +11,7 @@ async function cat(path) {
     const contents = await fsP.readFile(path, "utf8");
     console.log(contents);
   } catch (err) {
+    console.log(err)
     console.log("ENOENT: no such file or directory, open 'huh.txt'");
   }
 }
